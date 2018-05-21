@@ -1,0 +1,59 @@
+
+#board {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Indie Flower';
+	font-size: 72px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  text-align: center;
+  margin: 5px;
+}
+
+h3 {
+	font-family: 'Indie Flower';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  text-align: center;
+  margin: 20px;
+}
+
+.cell {
+  height: 140px;
+  width: 140px;
+  padding-left: 75px;
+  cursor: pointer;
+}
+
+.ver {
+  border-left: solid 10px;
+  border-right: solid 10px;
+}
+.hor {
+  border-top: solid 10px;
+  border-bottom: solid 10px;
+}
+
+table {
+  margin: 0 auto;
+}
+[data-symbol="x"] {
+  background-image: url('img/X.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+[data-symbol="o"]  {
+  background-image: url('img/O.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
