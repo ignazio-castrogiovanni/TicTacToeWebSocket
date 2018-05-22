@@ -1,14 +1,32 @@
-(function() {
+ (function() {
   'use strict';
   // Initial level
   var level = 1;
 
-  var ws = new WebSocket("ws://localhost:8999");
-	ws.onopen = function() {
+  var serverIp = "13.55.234.57";
+  var ws = new WebSocket("ws://" + serverIp + ":8999");
+
+  ws.onopen = function() {
   // Web Socket is connected, send data using send()
   ws.send("Connected to the server");
   console.log("Connected to the server")
   };
+
+  function handleMessage(message) {
+    var messageData = message.data;
+    console.log("Received message: " + messageData);
+    //var re = /[\w ](\d)/;
+    if (!(("" + messageData).startsWith('MOVE')))
+      return;
+    var position = messageData.substr(5,6);
+
+    var currentCell = document.getElementById(position);
+    moveOWebSocketMessage(currentCell);
+  }
+
+  ws.onmessage = function(message) {
+    handleMessage(message);
+  }
 
   var computerIsThinking = false;
   var thinkingIntID;
@@ -51,6 +69,24 @@
       } else {
         moveX();
       }
+    }
+  }
+
+  function moveOWebSocketMessage(currentCell) {
+    if(computerIsThinking) {
+      return;
+    }
+    if (currentCell.getAttribute('data-symbol') === '-') {
+      currentCell.setAttribute('data-symbol', 'o');
+      var cellNum = currentCell.getAttribute('id');
+      board[cellNum] = 'O';
+
+      var boardFinalStatus = checkBoardStatus();
+      if (boardFinalStatus) {
+        closeAndRestartGame(boardFinalStatus);
+        } else {
+        moveX();
+        }
     }
   }
 
