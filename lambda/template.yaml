@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  aws-serverless-repository-alexaskillskitnodejsfact-1NYWQ43D3UR8P:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Description: Demonstrate a basic fact skill built with the ASK NodeJS SDK
+      Handler: index.handler
+      MemorySize: 128
+      Role: >-
+        arn:aws:iam::647286605986:role/aws-serverless-repository-alexaskillskitnodejsfact-1NVSJZQ4QWZLP
+      Runtime: nodejs8.10
+      Timeout: 7

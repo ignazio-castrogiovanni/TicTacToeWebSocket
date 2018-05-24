@@ -1,0 +1,62 @@
+{
+    "aws-serverless-repository-alexaskillskitnodejsfact-1NYWQ43D3UR8P": {
+        "lambda": {
+            "version": "1.0",
+            "session": {
+                "new": true,
+                "sessionId": "amzn1.echo-api.session.a15b43bf-027c-4c25-b32b-55330b076081",
+                "application": {
+                    "applicationId": "amzn1.ask.skill.aeba231e-8f9c-4cd8-b4de-84568fc5e044"
+                },
+                "user": {
+                    "userId": "amzn1.ask.account.AFU37CIENLDEYFQFBJLHOZSVPWMMWJKXJEJXLRPJML2C3L3WT4FIEMMM5KRQITDNIOYOVMFXORFYL4HE6DEIEFPJPJK6553HLXDUN7W65JM2EOVYQN7WVLAOWPPMSETNFS3SDZXAEIFKUE3LIW6C4BVQNRFF7STWXMEHDLSTGQZOPAZM3KVANSW5GWHEBQVXEHDXJO73YNPONGQ"
+                }
+            },
+            "context": {
+                "AudioPlayer": {
+                    "playerActivity": "IDLE"
+                },
+                "Display": {
+                    "token": ""
+                },
+                "System": {
+                    "application": {
+                        "applicationId": "amzn1.ask.skill.aeba231e-8f9c-4cd8-b4de-84568fc5e044"
+                    },
+                    "user": {
+                        "userId": "amzn1.ask.account.AFU37CIENLDEYFQFBJLHOZSVPWMMWJKXJEJXLRPJML2C3L3WT4FIEMMM5KRQITDNIOYOVMFXORFYL4HE6DEIEFPJPJK6553HLXDUN7W65JM2EOVYQN7WVLAOWPPMSETNFS3SDZXAEIFKUE3LIW6C4BVQNRFF7STWXMEHDLSTGQZOPAZM3KVANSW5GWHEBQVXEHDXJO73YNPONGQ"
+                    },
+                    "device": {
+                        "deviceId": "amzn1.ask.device.AHM2SJOVUQODBVACSEF6NPYHTJXSCOGN34WHLV4ZQK5FBRZ6TWGGWFP5IBOCIGMB2KZGEO3AVYMDKASQA3QMQTRSGUIIMC2C7AFDL3MV7SRKTZMTLMAKC3QUYWWR2IYDGKQ7YZX7F7IPMAL7XSESHKWXW2VA",
+                        "supportedInterfaces": {
+                            "AudioPlayer": {},
+                            "Display": {
+                                "templateVersion": "1.0",
+                                "markupVersion": "1.0"
+                            }
+                        }
+                    },
+                    "apiEndpoint": "https://api.eu.amazonalexa.com",
+                    "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmFlYmEyMzFlLThmOWMtNGNkOC1iNGRlLTg0NTY4ZmM1ZTA0NCIsImV4cCI6MTUyNjg5MjkwOSwiaWF0IjoxNTI2ODg5MzA5LCJuYmYiOjE1MjY4ODkzMDksInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhNMlNKT1ZVUU9EQlZBQ1NFRjZOUFlIVEpYU0NPR04zNFdITFY0WlFLNUZCUlo2VFdHR1dGUDVJQk9DSUdNQjJLWkdFTzNBVllNREtBU1FBM1FNUVRSU0dVSUlNQzJDN0FGREwzTVY3U1JLVFpNVExNQUtDM1FVWVdXUjJJWURHS1E3WVpYN0Y3SVBNQUw3WFNFU0hLV1hXMlZBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZVMzdDSUVOTERFWUZRRkJKTEhPWlNWUFdNTVdKS1hKRUpYTFJQSk1MMkMzTDNXVDRGSUVNTU01S1JRSVRETklPWU9WTUZYT1JGWUw0SEU2REVJRUZQSlBKSzY1NTNITFhEVU43VzY1Sk0yRU9WWVFON1dWTEFPV1BQTVNFVE5GUzNTRFpYQUVJRktVRTNMSVc2QzRCVlFOUkZGN1NUV1hNRUhETFNUR1FaT1BBWk0zS1ZBTlNXNUdXSEVCUVZYRUhEWEpPNzNZTlBPTkdRIn19.Om8PP-u43ebTB5TprtN8cMF70InZfLO4GHNXZTUytnOr2DMgNNDNcvc9sEMQnkgb1ZPiQCTWhMIiU466kI-I8KghcDV_KvHix2j_9HePWnbqA1_tCalIxNa4TxLMxOYCfI-0TCJ3WA_1_yMHw7xHrtQJbIK_1YOCKcfPPRWF-7rELqR2vkhOiByo4dwrkBTYDDa7eLps-IYV5Wm7aDNCecjthFG8q6rXgnYqUqLjcaund10ByHsZq6XRJhR1c895BkyI29CkINWc5iK1gQp6BGnWPh-p1DqpKDr2iHGiU4oVS4A7kObf4QCWcJsRYOpN97qCM-JjpVlxGAvOdaOAVw"
+                }
+            },
+            "request": {
+                "type": "IntentRequest",
+                "requestId": "amzn1.echo-api.request.561f540e-8ebe-44a1-b166-5f1f112bef83",
+                "timestamp": "2018-05-21T07:55:09Z",
+                "locale": "en-AU",
+                "intent": {
+                    "name": "MoveIntent",
+                    "confirmationStatus": "NONE",
+                    "slots": {
+                        "cell": {
+                            "name": "cell",
+                            "value": "7",
+                            "confirmationStatus": "NONE"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
